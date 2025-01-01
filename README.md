@@ -27,13 +27,13 @@ protoc --go_out=. --go-grpc_out=. proto/greet.proto
 ### Running the Server
 ```bash
 cd server
-go run main.go
+go run *.go
 ```
 
 ### Running the Client
 ```bash
 cd client
-go run main.go  # Executes unary RPC example
+go run *.go
 ```
 
 ## Features
